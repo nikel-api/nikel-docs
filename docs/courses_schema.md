@@ -1,7 +1,7 @@
 ---
 id: courses_schema
-title: Course Schema
-sidebar_label: Schema
+title: Schema
+sidebar_label: schema
 ---
 
 ### Schema

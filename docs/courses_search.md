@@ -153,7 +153,7 @@ Filter by delivery mode.
 
 ### Sample Response
 
-`https://nikel.ml/api/courses/search?code=CSC2&description=Algorithms`
+`https://nikel.ml/api/courses/search?code=CSC2&description=Algorithms&size=>100`
 
 ```json
 {

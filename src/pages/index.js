@@ -56,7 +56,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      description="Nikel API for UofT">
+      description="Nikel API for the University of Toronto">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title" style={{ color:"white" }}>{siteConfig.title}</h1>

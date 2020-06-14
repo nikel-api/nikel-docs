@@ -4,9 +4,9 @@ title: Query Guide
 sidebar_label: query guide
 ---
 
-### Options for Integer Queries
+### Options for Integer and Floating Point Queries
 
-You can prepend integers with certain strings for better search functionality.
+You can prepend integers and floating points with certain strings for better search functionality.
 
 * (equal)
 * ! (not equal)

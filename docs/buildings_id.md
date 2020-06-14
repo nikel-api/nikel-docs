@@ -12,7 +12,7 @@ sidebar_label: "buildings/:id"
 
 ### Parameters
 
-#### :id (integer)
+#### :id (string)
 
 Building ID.
 

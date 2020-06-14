@@ -35,3 +35,7 @@
 a {
     color: #006ef2;
 }
+
+.table-of-contents__link--active {
+    color: #006ef2;
+}

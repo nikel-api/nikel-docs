@@ -10,19 +10,6 @@ sidebar_label: "courses/search"
 
 ---
 
-### Additional Options for Integers
-
-You can prepend integers with certain strings for better search functionality.
-
-* (equal)
-* ! (not equal)
-* < (less than)
-* <= (less than or equal to)
-* \> (greater than) 
-* \>= (greater than or equal to)
-
----
-
 ### Query
 
 #### limit (integer)

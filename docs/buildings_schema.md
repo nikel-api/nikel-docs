@@ -8,17 +8,21 @@ sidebar_label: schema
 
 ```json
 {
-  "id": integer,
+  "id": string,
   "code": string,
+  "tags": string,
   "name": string,
-  "campus": string,
+  "short_name": string,
   "address": {
-    "street_number": string,
-    "street_name": string,
+    "street": string,
     "city": string,
     "province": string,
     "country": string,
-    "postal_code": string
+    "postal": string
+  },
+  "coordinates": {
+    "latitude": float,
+    "longitude": float
   },
   "last_updated": string
 }
@@ -30,18 +34,22 @@ sidebar_label: schema
 
 ```json
 {
-  "id": 101,
-  "code": "MS",
-  "name": "Medical Sciences Building",
-  "campus": "St. George",
+  "id": "001",
+  "code": "UC",
+  "tags": "Art Centre",
+  "name": "University College",
+  "short_name": "UC",
   "address": {
-    "street_number": "1",
-    "street_name": "King's College Circle",
+    "street": "15  King's College Circle",
     "city": "Toronto",
     "province": "ON",
     "country": "Canada",
-    "postal_code": "M5S 1A8"
+    "postal": "M5S 3H7"
   },
-  "last_updated": "2020-06-13 21:10:36.0"
+  "coordinates": {
+    "latitude": 43.6632,
+    "longitude": -79.39582
+  },
+  "last_updated": "2020-06-14 09:44:58.0"
 }
 ```

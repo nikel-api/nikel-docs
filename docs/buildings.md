@@ -30,19 +30,23 @@ Skip number of results. Default 0.
 {
   "response": [
     {
-      "id": 101,
-      "code": "MS",
-      "name": "Medical Sciences Building",
-      "campus": "St. George",
+      "id": "131",
+      "code": "NR",
+      "tags": null,
+      "name": "New College III",
+      "short_name": "New Coll III",
       "address": {
-        "street_number": "1",
-        "street_name": "King's College Circle",
+        "street": "45  Willcocks Street",
         "city": "Toronto",
         "province": "ON",
         "country": "Canada",
-        "postal_code": "M5S 1A8"
+        "postal": "M5S 1C7"
       },
-      "last_updated": "2020-06-13 21:10:36.0"
+      "coordinates": {
+        "latitude": 43.66101,
+        "longitude": -79.40078
+      },
+      "last_updated": "2020-06-14 09:44:58.0"
     }
   ],
   "status_code": 200,

@@ -20,7 +20,7 @@ Limit number of results. Max 100 results. Default 10.
 
 Skip number of results. Default 0.
 
-#### id (integer)
+#### id (string)
 
 Filter by ID.
 
@@ -28,21 +28,21 @@ Filter by ID.
 
 Filter by code.
 
+#### tags (string)
+
+Filter by tags.
+
 #### name (string)
 
 Filter by name.
 
-#### campus (string)
+#### short_name (string)
 
-Filter by campus.
+Filter by short name.
 
-#### street_number (string)
+#### street (string)
 
-Filter by street number.
-
-#### street_name (string)
-
-Filter by street name.
+Filter by street.
 
 #### city (string)
 
@@ -56,9 +56,17 @@ Filter by province.
 
 Filter by country.
 
-#### postal_code (string)
+#### postal (string)
 
-Filter by postal code.
+Filter by postal.
+
+#### latitude (float)
+
+Filter by latitude.
+
+#### longitude (float)
+
+Filter by longitude.
 
 ---
 
@@ -70,19 +78,23 @@ Filter by postal code.
 {
   "response": [
     {
-      "id": 177,
+      "id": "340",
       "code": "DH",
+      "tags": null,
       "name": "Deerfield Hall",
-      "campus": "Mississauga",
+      "short_name": "Deerfield",
       "address": {
-        "street_number": "1535",
-        "street_name": "Outer Circle",
+        "street": "1535 Outer Circle",
         "city": "Mississauga",
         "province": "ON",
         "country": "Canada",
-        "postal_code": null
+        "postal": null
       },
-      "last_updated": "2020-06-13 21:10:37.0"
+      "coordinates": {
+        "latitude": 43.55042,
+        "longitude": -79.66629
+      },
+      "last_updated": "2020-06-14 09:44:59.0"
     }
   ],
   "status_code": 200,

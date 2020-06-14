@@ -20,24 +20,28 @@ Building ID.
 
 ### Sample Response
 
-`https://nikel.ml/api/building/1`
+`https://nikel.ml/api/buildings/001`
 
 ```json
 {
   "response": {
-    "id": 1,
-    "code": "AN",
-    "name": "Annesley Hall",
-    "campus": "St. George",
+    "id": "001",
+    "code": "UC",
+    "tags": "Art Centre",
+    "name": "University College",
+    "short_name": "UC",
     "address": {
-      "street_number": "95",
-      "street_name": "Queen's Park",
+      "street": "15  King's College Circle",
       "city": "Toronto",
       "province": "ON",
       "country": "Canada",
-      "postal_code": "M5S 2C7"
+      "postal": "M5S 3H7"
     },
-    "last_updated": "2020-06-13 21:10:36.0"
+    "coordinates": {
+      "latitude": 43.6632,
+      "longitude": -79.39582
+    },
+    "last_updated": "2020-06-14 09:44:58.0"
   },
   "status_code": 200,
   "status_message": "success"

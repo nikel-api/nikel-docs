@@ -1,42 +1,43 @@
 ---
 id: courses
 title: Courses
-sidebar_label: "courses"
+hide_title: true
+sidebar_label: "GET courses"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/courses`
+```
+https://nikel.ml/api/courses
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
 ---
 
 ### Sample Response
 
-`https://nikel.ml/api/courses?limit=1&skip=1000`
-
-```json
+```json title="https://nikel.ml/api/courses?limit=1&skip=1000"
 {
   "response": [
     {
       "id": "ENGD96H3S20211",
       "code": "ENGD96H3",
       "name": "Iranian Cinema",
-      "description": "This course examines the development of Iranian cinema, particularly experimental and art cinema. Questions of form, and the political and social dimensions of cinema, will be considered alongside the theory of national cinemas. The course places Iranian cinema in a global context by considering it with other national cinemas.",
+      "description": "This course examines the development...",
       "division": "University of Toronto Scarborough",
       "department": "English (UTSC)",
-      "prerequisites": "At least one course (0.5 credit) at B- or C-level in film",
+      "prerequisites": "At least one course...",
       "corequisites": null,
       "exclusions": null,
       "recommended_preparation": null,

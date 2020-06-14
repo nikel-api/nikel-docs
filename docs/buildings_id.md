@@ -1,18 +1,21 @@
 ---
 id: buildings_id
 title: Buildings by ID
-sidebar_label: "buildings/:id"
+hide_title: true
+sidebar_label: "GET buildings/:id"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/buildings/:id`
+```
+https://nikel.ml/api/buildings/:id
+```
 
 ---
 
 ### Parameters
 
-#### :id (string)
+#### `:id` (string)
 
 Building ID.
 
@@ -20,9 +23,7 @@ Building ID.
 
 ### Sample Response
 
-`https://nikel.ml/api/buildings/001`
-
-```json
+```json title="https://nikel.ml/api/buildings/001"
 {
   "response": {
     "id": "001",

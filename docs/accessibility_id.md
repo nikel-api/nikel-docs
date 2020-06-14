@@ -1,18 +1,21 @@
 ---
 id: accessibility_id
 title: Accessibility by ID
-sidebar_label: "accessibility/:id"
+hide_title: true
+sidebar_label: "GET accessibility/:id"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/accessibility/:id`
+```
+https://nikel.ml/api/accessibility/:id
+```
 
 ---
 
 ### Parameters
 
-#### :id (string)
+#### `:id` (string)
 
 Accessibility ID.
 
@@ -20,14 +23,12 @@ Accessibility ID.
 
 ### Sample Response
 
-`https://nikel.ml/api/accessibility/0515`
-
-```json
+```json title="https://nikel.ml/api/accessibility/0515"
 {
   "response": {
     "id": "0515",
     "name": "Main Entrance to Convocation Hall",
-    "description": "3 sets of wood doors are the main public entrance\u003cbr /\u003e\n2 steps up to these manual doors\u003cbr /\u003e\n",
+    "description": "3 sets of wood doors...",
     "building_id": "10A",
     "campus": "St. George",
     "image": "http://map.utoronto.ca/_assets/_m_b/CH_main1.jpg",

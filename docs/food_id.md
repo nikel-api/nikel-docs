@@ -1,18 +1,21 @@
 ---
 id: food_id
 title: Food by ID
-sidebar_label: "food/:id"
+hide_title: true
+sidebar_label: "GET food/:id"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/food/:id`
+```
+https://nikel.ml/api/food/:id
+```
 
 ---
 
 ### Parameters
 
-#### :id (string)
+#### `:id` (string)
 
 Food ID.
 
@@ -20,9 +23,7 @@ Food ID.
 
 ### Sample Response
 
-`https://nikel.ml/api/food/0276`
-
-```json
+```json title="https://nikel.ml/api/food/0276"
 {
   "response": {
     "id": "0276",

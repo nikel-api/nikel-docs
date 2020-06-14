@@ -1,38 +1,39 @@
 ---
 id: accessibility
 title: Accessibility
-sidebar_label: "accessibility"
+hide_title: true
+sidebar_label: "GET accessibility"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/accessibility`
+```
+https://nikel.ml/api/accessibility
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
 ---
 
 ### Sample Response
 
-`https://nikel.ml/api/accessibility?limit=1&skip=100`
-
-```json
+```json title="https://nikel.ml/api/accessibility?limit=1&skip=100"
 {
   "response": [
     {
       "id": "0676",
       "name": "Accessible entrance to the Architecture building",
-      "description": "Powered door approached by level sidewalk. There is a short ramp on the building interior inside the entrance. The door faces west and is clearly visible from Huron St.",
+      "description": "Powered door approached...",
       "building_id": "28",
       "campus": "St. George",
       "image": "http://map.utoronto.ca/_assets/_m_b/cu2.jpg",

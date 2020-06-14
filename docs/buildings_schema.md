@@ -1,10 +1,11 @@
 ---
 id: buildings_schema
-title: Schema
+title: Buildings Schema
+hide_title: true
 sidebar_label: schema
 ---
 
-### Schema
+### Buildings Schema
 
 ```json
 {

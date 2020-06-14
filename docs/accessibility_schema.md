@@ -1,10 +1,11 @@
 ---
 id: accessibility_schema
-title: Schema
+title: Accessibility Schema
+hide_title: true
 sidebar_label: schema
 ---
 
-### Schema
+### Accessibility Schema
 
 ```json
 {
@@ -31,7 +32,7 @@ sidebar_label: schema
 {
   "id": "0515",
   "name": "Main Entrance to Convocation Hall",
-  "description": "3 sets of wood doors are the main public entrance\u003cbr /\u003e\n2 steps up to these manual doors\u003cbr /\u003e\n",
+  "description": "3 sets of wood doors...",
   "building_id": "10A",
   "campus": "St. George",
   "image": "http://map.utoronto.ca/_assets/_m_b/CH_main1.jpg",

@@ -1,86 +1,89 @@
 ---
 id: food_search
 title: Food by Search
-sidebar_label: "food/search"
+hide_title: true
+sidebar_label: "GET food/search"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/food/search`
+```
+https://nikel.ml/api/food/search
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
-#### id (string)
+#### `id` (string)
 
 Filter by ID.
 
-#### name (string)
+#### `name` (string)
 
 Filter by name.
 
-#### description (string)
+#### `description` (string)
 
 Filter by description.
 
-#### tags (string)
+#### `tags` (string)
 
 Filter by tags.
 
-#### campus (string)
+#### `campus` (string)
 
 Filter by campus.
 
-#### address (string)
+#### `address` (string)
 
 Filter by address.
 
-#### latitude (float)
+#### `latitude` (float)
 
 Filter by latitude.
 
-#### longitude (float)
+#### `longitude` (float)
 
 Filter by longitude.
 
-#### sunday (boolean)
+#### `sunday` (boolean)
 
 Filter by open status on sunday.
 
-#### monday (boolean)
+#### `monday` (boolean)
 
 Filter by open status on monday.
 
-#### tuesday (boolean)
+#### `tuesday` (boolean)
 
 Filter by open status on tuesday.
 
-#### wednesday (boolean)
+#### `wednesday` (boolean)
 
 Filter by open status on wednesday.
 
-#### thursday (boolean)
+#### `thursday` (boolean)
 
 Filter by open status on thursday.
 
-#### friday (boolean)
+#### `friday` (boolean)
 
 Filter by open status on friday.
 
-#### saturday (boolean)
+#### `saturday` (boolean)
 
 Filter by open status on saturday.
 
-#### attributes (string)
+#### `attributes` (string)
 
 Filter by attributes.
 
@@ -88,9 +91,7 @@ Filter by attributes.
 
 ### Sample Response
 
-`https://nikel.ml/api/food/search?campus=st. george&sunday=true&attributes=microwave&limit=1`
-
-```json
+```json title="https://nikel.ml/api/food/search?campus=st. george&sunday=true&attributes=microwave&limit=1"
 {
   "response": [
     {
@@ -141,7 +142,7 @@ Filter by attributes.
           "close": null
         }
       },
-      "image": "http://map.utoronto.ca/_assets/_m_b/REZNIKOFF-_logoWeb.jpg",
+      "image": "http://map.utoronto.ca/_assets/_m_b/...",
       "url": "https://ueat.utoronto.ca/cafe-reznikoff/",
       "twitter": "@ueatoronto",
       "facebook": "https://www.facebook.com/ueatoronto",

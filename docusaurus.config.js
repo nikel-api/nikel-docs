@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Nikel API',
-    tagline: 'Free Unlimited API for the University of Toronto',
+    tagline: 'Free API for the University of Toronto',
     url: 'https://nikei-api.github.io',
     baseUrl: '/',
     favicon: 'img/nikel-api.ico',

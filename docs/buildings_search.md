@@ -1,70 +1,73 @@
 ---
 id: buildings_search
 title: Buildings by Search
-sidebar_label: "buildings/search"
+hide_title: true
+sidebar_label: "GET buildings/search"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/buildings/search`
+```
+https://nikel.ml/api/buildings/search
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
-#### id (string)
+#### `id` (string)
 
 Filter by ID.
 
-#### code (string)
+#### `code` (string)
 
 Filter by code.
 
-#### tags (string)
+#### `tags` (string)
 
 Filter by tags.
 
-#### name (string)
+#### `name` (string)
 
 Filter by name.
 
-#### short_name (string)
+#### `short_name` (string)
 
 Filter by short name.
 
-#### street (string)
+#### `street` (string)
 
 Filter by street.
 
-#### city (string)
+#### `city` (string)
 
 Filter by city.
 
-#### province (string)
+#### `province` (string)
 
 Filter by province.
 
-#### country (string)
+#### `country` (string)
 
 Filter by country.
 
-#### postal (string)
+#### `postal` (string)
 
 Filter by postal.
 
-#### latitude (float)
+#### `latitude` (float)
 
 Filter by latitude.
 
-#### longitude (float)
+#### `longitude` (float)
 
 Filter by longitude.
 
@@ -72,9 +75,7 @@ Filter by longitude.
 
 ### Sample Response
 
-`https://nikel.ml/api/buildings/search?name=Deerfield Hall`
-
-```json
+```json title="https://nikel.ml/api/buildings/search?name=Deerfield Hall"
 {
   "response": [
     {

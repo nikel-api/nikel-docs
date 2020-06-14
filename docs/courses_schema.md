@@ -1,10 +1,11 @@
 ---
 id: courses_schema
-title: Schema
+title: Courses Schema
+hide_title: true
 sidebar_label: schema
 ---
 
-### Schema
+### Courses Schema
 
 ```json
 {

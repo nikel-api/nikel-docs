@@ -1,10 +1,11 @@
 ---
 id: food_schema
-title: Schema
+title: Food Schema
+hide_title: true
 sidebar_label: schema
 ---
 
-### Schema
+### Food Schema
 
 ```json
 {

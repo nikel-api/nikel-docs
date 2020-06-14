@@ -1,50 +1,53 @@
 ---
 id: accessibility_search
 title: Accessibility by Search
-sidebar_label: "accessibility/search"
+hide_title: true
+sidebar_label: "GET accessibility/search"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/accessibility/search`
+```
+https://nikel.ml/api/accessibility/search
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
-#### id (string)
+#### `id` (string)
 
 Filter by ID.
 
-#### name (string)
+#### `name` (string)
 
 Filter by name.
 
-#### description (string)
+#### `description` (string)
 
 Filter by description.
 
-#### building_id (string)
+#### `building_id` (string)
 
 Filter by building id.
 
-#### campus (string)
+#### `campus` (string)
 
 Filter by campus.
 
-#### latitude (float)
+#### `latitude` (float)
 
 Filter by latitude.
 
-#### longitude (float)
+#### `longitude` (float)
 
 Filter by longitude.
 
@@ -52,9 +55,7 @@ Filter by longitude.
 
 ### Sample Response
 
-`https://nikel.ml/api/accessibility/search?building_id=313&attributes=Powered Entrances`
-
-```json
+```json title="https://nikel.ml/api/accessibility/search?building_id=313&attributes=Powered Entrances"
 {
   "response": [
     {

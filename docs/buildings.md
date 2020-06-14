@@ -1,32 +1,32 @@
 ---
 id: buildings
 title: Buildings
-sidebar_label: "buildings"
+hide_title: true
+sidebar_label: "GET buildings"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/buildings`
-
+```
+https://nikel.ml/api/buildings
+```
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
 ---
 
 ### Sample Response
 
-`https://nikel.ml/api/buildings?limit=1&skip=100`
-
-```json
+```json title="https://nikel.ml/api/buildings?limit=1&skip=100"
 {
   "response": [
     {

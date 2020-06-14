@@ -1,32 +1,33 @@
 ---
 id: food
 title: Food
-sidebar_label: "food"
+hide_title: true
+sidebar_label: "GET food"
 ---
 
 ### Base URL
 
-`https://nikel.ml/api/food`
+```
+https://nikel.ml/api/food
+```
 
 ---
 
 ### Query
 
-#### limit (integer)
+#### `limit` (integer)
 
-Limit number of results. Max 100 results. Default 10.
+Limit number of results. Max `100` results. Default `10`.
 
-#### skip (integer)
+#### `skip` (integer)
 
-Skip number of results. Default 0.
+Skip number of results. Default `0`.
 
 ---
 
 ### Sample Response
 
-`https://nikel.ml/api/food?limit=1`
-
-```json
+```json title="https://nikel.ml/api/food?limit=1"
 {
   "response": [
     {

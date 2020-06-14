@@ -1,8 +1,11 @@
 ---
 id: query_guide
 title: Query Guide
+hide_title: true
 sidebar_label: query guide
 ---
+
+## Query Guide
 
 ### Options for Integer and Floating Point Queries
 

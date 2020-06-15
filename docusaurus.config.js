@@ -3,7 +3,7 @@ module.exports = {
     tagline: 'Free API for the University of Toronto',
     url: 'https://nikei-api.github.io',
     baseUrl: '/',
-    favicon: 'img/nikel-api.ico',
+    favicon: 'img/nikel-api-circle.ico',
     organizationName: 'nikel-api', // Usually your GitHub org/user name.
     projectName: 'nikel', // Usually your repo name.
     themeConfig: {
@@ -11,7 +11,7 @@ module.exports = {
             title: 'Nikel API',
             logo: {
                 alt: 'Nikel API Logo',
-                src: 'img/nikel-api.ico',
+                src: 'img/nikel-api-circle.ico',
             },
             links: [
                 {

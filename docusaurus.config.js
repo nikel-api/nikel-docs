@@ -31,6 +31,11 @@ module.exports = {
                     label: 'API Status',
                     position: 'right',
                 },
+                {
+                    href: 'mailto:api@nikel.ml',
+                    label: 'Contact',
+                    position: 'right',
+                },
             ],
         },
         footer: {

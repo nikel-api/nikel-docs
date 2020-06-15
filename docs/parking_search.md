@@ -41,7 +41,7 @@ Filter by description.
 
 #### `building_id` (string)
 
-Filter by building id.
+Filter by building ID.
 
 #### `campus` (string)
 

@@ -10,7 +10,7 @@ sidebar_label: welcome
 
 Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs on information about the University of Toronto.
 
-:::note
+:::note Important
 Although the API is free, there are very lenient rate limits posed to prevent API abuse.
 
 The current rate limit is **5 requests per second**.

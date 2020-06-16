@@ -49,7 +49,7 @@ sidebar_label: schema
 
 ---
 
-### Sample Response
+### Sample Response Item
 
 ```json
 {

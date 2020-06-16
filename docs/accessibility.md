@@ -19,32 +19,36 @@ https://nikel.ml/api/accessibility
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/accessibility?limit=1&skip=100"
+```json title="https://nikel.ml/api/accessibility?limit=1&name=main entrance"
 {
   "response": [
     {
-      "id": "0676",
-      "name": "Accessible entrance to the Architecture building",
-      "description": "Powered door approached...",
-      "building_id": "28",
+      "id": "0515",
+      "name": "Main Entrance to Convocation Hall",
+      "description": "3 sets of wood doors...",
+      "building_id": "10A",
       "campus": "St. George",
-      "image": "http://map.utoronto.ca/_assets/_m_b/cu2.jpg",
+      "image": "http://map.utoronto.ca...",
       "coordinates": {
-        "latitude": 43.65865,
-        "longitude": -79.39813
+        "latitude": 43.66095,
+        "longitude": -79.39526
       },
       "attributes": [
-        "Powered Entrances"
+        "Non-powered Entrances"
       ],
-      "last_updated": "2020-06-14 16:42:38.0"
+      "last_updated": "2020-06-15T22:05:16.170705"
     }
   ],
   "status_code": 200,

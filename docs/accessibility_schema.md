@@ -35,7 +35,7 @@ sidebar_label: schema
   "description": "3 sets of wood doors...",
   "building_id": "10A",
   "campus": "St. George",
-  "image": "http://map.utoronto.ca/_assets/_m_b/CH_main1.jpg",
+  "image": "http://map.utoronto.ca...",
   "coordinates": {
     "latitude": 43.66095,
     "longitude": -79.39526
@@ -43,6 +43,6 @@ sidebar_label: schema
   "attributes": [
     "Non-powered Entrances"
   ],
-  "last_updated": "2020-06-14 16:42:38.0"
+  "last_updated": "2020-06-15T22:05:16.170705"
 }
 ```

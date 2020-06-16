@@ -19,77 +19,87 @@ https://nikel.ml/api/food
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/food?limit=1"
+```json title="https://nikel.ml/api/food?tags=pizza&limit=1&offset=2"
 {
   "response": [
     {
-      "id": "0276",
-      "name": "Café AC",
-      "description": null,
-      "tags": "Coffee, Beverage, Muffins, Cookies, GrabNGo, AC",
+      "id": "0366",
+      "name": "Robarts Cafeteria",
+      "description": "Located on the second...",
+      "tags": "Library, pizza, pasta, sandwiches, coffee, snacks",
       "campus": "St. George",
-      "address": "55 Harbord St, Toronto, ON M5S 2W6",
+      "address": "130 St. George St, Toronto, ON M5S 1A5",
       "coordinates": {
-        "latitude": 43.66292,
-        "longitude": -79.40131
+        "latitude": 43.66463,
+        "longitude": -79.39972
       },
       "hours": {
         "sunday": {
-          "closed": false,
-          "open": 32400,
-          "close": 61200
+          "closed": true,
+          "open": null,
+          "close": null
         },
         "monday": {
           "closed": false,
-          "open": 25200,
-          "close": 75600
+          "open": 34200,
+          "close": 61200
         },
         "tuesday": {
           "closed": false,
-          "open": 25200,
-          "close": 75600
+          "open": 34200,
+          "close": 61200
         },
         "wednesday": {
           "closed": false,
-          "open": 25200,
-          "close": 75600
+          "open": 34200,
+          "close": 61200
         },
         "thursday": {
           "closed": false,
-          "open": 25200,
-          "close": 75600
+          "open": 34200,
+          "close": 61200
         },
         "friday": {
           "closed": false,
-          "open": 25200,
-          "close": 75600
+          "open": 34200,
+          "close": 57600
         },
         "saturday": {
-          "closed": false,
-          "open": 32400,
-          "close": 61200
+          "closed": true,
+          "open": null,
+          "close": null
         }
       },
-      "image": "http://map.utoronto.ca/_assets/_m_b/ac_cafe.jpg",
-      "url": "https://ueat.utoronto.ca/ac-cafe/",
+      "image": "http://map.utoronto.ca...",
+      "url": "http://www.ueat.utoronto.ca",
       "twitter": "@UeaToronto",
       "facebook": "https://www.facebook.com/ueatoronto",
       "attributes": [
         "Flexible Dollars Accepted",
         "Snacks, Coffee, Beverages",
+        "Halal Entrees Available",
         "Lug a Mug \u0026 Save $0.25",
+        "Microwave",
         "Light Meals",
-        "Green Bin"
+        "Vegan Foods",
+        "Green Bin",
+        "Reusable Eco-Tray",
+        "Gluten Free",
+        "Vegetarian Food"
       ],
-      "last_updated": "2020-06-14 11:54:27.0"
+      "last_updated": "2020-06-15T22:01:49.373846"
     }
   ],
   "status_code": 200,

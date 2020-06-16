@@ -19,30 +19,34 @@ https://nikel.ml/api/parking
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/parking?limit=1&skip=10"
+```json title="https://nikel.ml/api/parking?coordinates.latitude=>40&&coordinates.latitude=<75&limit=1"
 {
   "response": [
     {
-      "id": "0557",
-      "name": "256 McCaul St. Parking Lot",
-      "alias": null,
-      "building_id": "083",
-      "description": "Cash Parking - After 5pm Only...",
+      "id": "0123",
+      "name": "371 Bloor Street West",
+      "alias": "Faculty of Education",
+      "building_id": "014",
+      "description": "Cash Parking...",
       "campus": "St. George",
-      "address": "256 McCaul Street",
+      "address": "371 Bloor St W, Toronto, ON M5S 2R7, Canada",
       "coordinates": {
-        "latitude": 43.65866,
-        "longitude": -79.39365
+        "latitude": 43.66623,
+        "longitude": -79.4025
       },
-      "last_updated": "2020-06-14 20:28:38.0"
+      "last_updated": "2020-06-15T22:01:14.545777"
     }
   ],
   "status_code": 200,

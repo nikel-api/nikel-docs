@@ -18,15 +18,19 @@ https://nikel.ml/api/buildings
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/buildings?limit=1&skip=100"
+```json title="https://nikel.ml/api/buildings?limit=1&code==NR"
 {
   "response": [
     {
@@ -46,7 +50,7 @@ Skip number of results. Default `0`.
         "latitude": 43.66101,
         "longitude": -79.40078
       },
-      "last_updated": "2020-06-14 09:44:58.0"
+      "last_updated": "2020-06-15T22:03:56.308499"
     }
   ],
   "status_code": 200,

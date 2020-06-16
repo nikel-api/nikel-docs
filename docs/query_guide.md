@@ -8,30 +8,64 @@ sidebar_label: query guide
 
 ## Query Guide
 
-### String Queries
+### Introduction
 
-Here are a few things to keep in mind:
+In each schema, you'll notice that each data response as a fixed set of fields.
 
-* substrings are matched
-* string queries are case insensitive
+Using the field names, you can craft powerful and versatile queries.
 
-:::note Example
-`csc2` matches `CSC263`.
-:::
+### Query Form
 
-___
+Each query is in the form `<field>=<value>`. The `<field>` value is determined by the JSON payload format for the respective response.
 
-### Integer and Floating Point Queries
+```json title="Here's an example of where you can find <field> values."
+Schema
+{
+  <field_1>: string,
+  <field_2>: {
+    <field_2.1>: float,
+    <field_2.2>: float
+  },
+}
 
-You can prepend integers and floating points with certain strings for better search functionality.
+Sample
+{
+  "id": "001",
+  "coordinates": {
+    "latitude": 50,
+    "longitude": 30
+  },
+}
+```
 
-* (equal)
-* `!` (not equal)
-* `<` (less than)
-* `<=` (less than or equal to)
-* `>` (greater than) 
-* `>=` (greater than or equal to)
+Example of how to query top-level fields: `id=001`
 
-:::note Example
-`<=100` matches any value with 100 or lower.
+Example of how to query nested fields: `coordinates.latitude=50`
+
+### Advanced Queries
+
+You can also prepend the values of your search queries.
+
+Example: `coordinates.latitude=>=50`
+
+Futhermore, you can also add the more queries with the same field name.
+
+Example: `name=calculus&name=III`
+
+Here's a list of extra query operations to improve filtered search results.
+
+| Operator | String       | Non-String               |
+|----------|--------------|--------------------------|
+|          | Fuzzy search | Equality                 |
+| `=`      | Equality     | Equality                 |
+| `!`      | Inequality   | Inequality               |
+| `<`      | N/A          | Less than                |
+| `<=`     | N/A          | Less than or equal to    |
+| `>`      | N/A          | Greater than             |
+| `>=`     | N/A          | Greater than or equal to |
+| `(`      | Starts with  | N/A                      |
+| `)`      | Ends with    | N/A                      |
+
+:::note
+Queries don't work in array types.
 :::

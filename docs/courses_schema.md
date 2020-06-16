@@ -56,7 +56,7 @@ sidebar_label: schema
   "id": "ACMB01H3F20209",
   "code": "ACMB01H3",
   "name": "Critical Reading, Thinking and Writing for ACM Programs",
-  "description": "Academic study in the Department of Arts, Culture and Media is distinguished by critical, historical and practice-based approaches to text, image, sound and performance. This course focuses on critical reading, thinking and writing skills while introducing students to humanistic inquiry through lectures, readings, discussions, and attendance of campus performances and gallery exhibits. This is a writing intensive course that offers students regular constructive feedback on their work.",
+  "description": "Academic study in the Department of Arts...",
   "division": "University of Toronto Scarborough",
   "department": "Dept. of Arts, Culture \u0026 Media (UTSC)",
   "prerequisites": "Any 2.0 credits",

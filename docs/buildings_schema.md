@@ -35,22 +35,22 @@ sidebar_label: schema
 
 ```json
 {
-  "id": "001",
-  "code": "UC",
-  "tags": "Art Centre",
-  "name": "University College",
-  "short_name": "UC",
+  "id": "131",
+  "code": "NR",
+  "tags": null,
+  "name": "New College III",
+  "short_name": "New Coll III",
   "address": {
-    "street": "15  King's College Circle",
+    "street": "45  Willcocks Street",
     "city": "Toronto",
     "province": "ON",
     "country": "Canada",
-    "postal": "M5S 3H7"
+    "postal": "M5S 1C7"
   },
   "coordinates": {
-    "latitude": 43.6632,
-    "longitude": -79.39582
+    "latitude": 43.66101,
+    "longitude": -79.40078
   },
-  "last_updated": "2020-06-14 09:44:58.0"
+  "last_updated": "2020-06-15T22:03:56.308499"
 }
 ```

@@ -19,58 +19,69 @@ https://nikel.ml/api/courses
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/courses?limit=1&skip=1000"
+```json title="https://nikel.ml/api/courses?name=calculus&name=iii&limit=1"
 {
   "response": [
     {
-      "id": "ENGD96H3S20211",
-      "code": "ENGD96H3",
-      "name": "Iranian Cinema",
-      "description": "This course examines the development...",
-      "division": "University of Toronto Scarborough",
-      "department": "English (UTSC)",
-      "prerequisites": "At least one course...",
+      "id": "CHE221H1F20209",
+      "code": "CHE221H1",
+      "name": "Calculus III",
+      "description": "Introduces the basic...",
+      "division": "Faculty of Applied Science \u0026 Engineering",
+      "department": "Chemical Engineering and Applied Chemistry",
+      "prerequisites": null,
       "corequisites": null,
       "exclusions": null,
       "recommended_preparation": null,
-      "level": "400/D",
-      "campus": "Scarborough",
-      "term": "2021 Winter",
+      "level": "200/B",
+      "campus": "St. George",
+      "term": "2020 Fall",
       "arts_and_science_breadth": null,
       "arts_and_science_distribution": null,
       "utm_distribution": null,
-      "utsc_breadth": "Arts, Literature \u0026 Language",
-      "apsc_electives": "Complementary Studies",
+      "utsc_breadth": null,
+      "apsc_electives": null,
       "meeting_sections": [
         {
-          "code": "Lec 01",
+          "code": "Lec 0101",
           "instructors": [
-            "S Saljoughi"
+            
           ],
           "times": [
-            {
-              "day": "wednesday",
-              "start": 43200,
-              "end": 54000,
-              "duration": 10800,
-              "location": "HL B110"
-            }
+            
           ],
-          "size": 22,
+          "size": 0,
           "enrollment": null,
-          "waitlist_option": true,
+          "waitlist_option": false,
+          "delivery": "in-class"
+        },
+        {
+          "code": "Tut 0101",
+          "instructors": [
+            
+          ],
+          "times": [
+            
+          ],
+          "size": 0,
+          "enrollment": null,
+          "waitlist_option": false,
           "delivery": "in-class"
         }
       ],
-      "last_updated": "2020-06-12 14:15:01.0"
+      "last_updated": "2020-06-15T20:15:02"
     }
   ],
   "status_code": 200,

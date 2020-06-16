@@ -19,42 +19,46 @@ https://nikel.ml/api/textbooks
 
 Limit number of results. Max `100` results. Default `10`.
 
-#### `skip` (integer)
+#### `offset` (integer)
 
-Skip number of results. Default `0`.
+Offset number of results. Default `0`.
+
+#### [Field Queries](query_guide)
+
+Add any additional field queries.
 
 ---
 
 ### Sample Response
 
-```json title="https://nikel.ml/api/textbooks?limit=1"
+```json title="https://nikel.ml/api/textbooks?author=Cei (Wiley)&edition=7&price=<70&limit=1"
 {
   "response": [
     {
-      "id": "10555538",
-      "isbn": "0073014664",
-      "title": "Applied Linear Regression Models 4E...",
-      "edition": 4,
-      "author": "Kutner  (Revised W/ Cd)",
+      "id": "14786761",
+      "isbn": "1119140986",
+      "title": "Hughes-Hallett 7E/ Wileyplus For Calculus",
+      "edition": 7,
+      "author": "Cei (Wiley)",
       "image": "http://uoftbookstore.com/cover_image.asp...",
-      "price": 133.3,
-      "url": "https://uoftbookstore.com/buy_book_detail...",
+      "price": 65,
+      "url": "https://uoftbookstore.com/buy_book_detail.asp?pf_id=14786761",
       "courses": [
         {
-          "id": "STAC67H3Y20205",
-          "code": "STAC67H3Y",
+          "id": "MAT135H1F20205",
+          "code": "MAT135H1F",
           "requirement": "required",
           "meeting_sections": [
             {
-              "code": "L99",
+              "code": "L0101",
               "instructors": [
-                "S Mahinda"
+                "E Payman"
               ]
             }
           ]
         }
       ],
-      "last_updated": "2020-06-15 09:43:51.0"
+      "last_updated": "2020-06-15T22:22:32.014973"
     }
   ],
   "status_code": 200,

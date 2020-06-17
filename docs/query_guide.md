@@ -54,7 +54,7 @@ Example: `name=calculus&name=III`
 
 Here's a list of extra query operations to improve filtered search results.
 
-| Operator | String       | Non-String               |
+| Operator | String       | Numerical                |
 |----------|--------------|--------------------------|
 |          | Fuzzy search | Equality                 |
 | `=`      | Equality     | Equality                 |

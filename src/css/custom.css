@@ -27,3 +27,13 @@
 .hero--primary {
     --ifm-hero-background-color: #1f3657;
 }
+
+.hero--showcase {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.showcase {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

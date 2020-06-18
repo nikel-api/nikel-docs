@@ -16,7 +16,7 @@ function Hello() {
                         <div className="card">
                             <div className="card__image">
                                 <img
-                                    src="static/img/github.png"
+                                    src="https://docs.nikel.ml/img/github.png"
                                     alt="GitHub Logo"
                                     title="GitHub Logo"
                                 />

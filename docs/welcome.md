@@ -17,5 +17,5 @@ Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs on information 
 
 Although the API is free, there are very lenient rate limits posed to prevent API abuse.
 
-The current rate limit is **10 requests per second**.
+The current rate limit is **20 requests per second**.
 :::

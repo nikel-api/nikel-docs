@@ -12,7 +12,7 @@ const features = [
         imageUrl: 'img/Go-Logo_Blue.svg',
         description: (
             <>
-                Written in 100% Go for performance and low latency.
+                Written in 100% Go for performance and reliability.
             </>
         ),
     },
@@ -68,7 +68,7 @@ function Home() {
                                 styles.getStarted,
                             )}
                             to={useBaseUrl('docs')}>
-                            Get Started (In Alpha)
+                            Get Started
                         </Link>
                     </div>
                 </div>

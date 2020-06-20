@@ -24,7 +24,8 @@ module.exports = {
                 {to: 'showcase', label: 'Showcase', position: 'left'},
                 {
                     href: 'https://github.com/nikel-api',
-                    label: 'GitHub',
+                    className: 'header-github-link',
+                    'aria-label': 'GitHub repository',
                     position: 'right',
                 },
                 {

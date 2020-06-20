@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-function Hello() {
+function Showcase() {
     return (
         <Layout title="Showcase">
             <div className="hero shadow--lw hero--dark hero--showcase">
@@ -41,4 +41,4 @@ function Hello() {
     );
 }
 
-export default Hello;
+export default Showcase;

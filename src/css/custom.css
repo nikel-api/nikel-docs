@@ -62,11 +62,11 @@ html[data-theme='dark'] {
 .header-status:before {
     content: '';
     border-radius: 10px;
-    width: 55px;
-    height: 19px;
+    width: 65px;
+    height: 20px;
     display: flex;
-    background: url("https://statuspage.freshping.io/badge/e7bd2cad-adfa-4651-938d-9a8faa8b3445")
-    no-repeat -10px 0;
+    background: url("https://statuspage.freshping.io/badge/e7bd2cad-adfa-4651-938d-9a8faa8b3445?0.08168910442505828")
+    no-repeat -70px -22.5px;
 }
 
 html[data-theme='dark'] .header-github-link:before {

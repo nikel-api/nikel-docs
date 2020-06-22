@@ -25,12 +25,13 @@ module.exports = {
                 {
                     href: 'https://github.com/nikel-api',
                     className: 'header-github-link',
-                    'aria-label': 'GitHub repository',
+                    'aria-label': 'GitHub Repository',
                     position: 'right',
                 },
                 {
                     href: 'https://status.nikel.ml',
-                    label: 'API Status',
+                    className: 'header-status',
+                    'aria-label': 'API Status',
                     position: 'right',
                 },
                 {

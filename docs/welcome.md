@@ -12,12 +12,12 @@ Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs on information 
 
 :::note Important
 
-**This API is still currently in development. Some endpoints may change and the API is still yet to be versioned.**
+**This API is still currently in development. Some endpoints may change.**
 
-**If something breaks, please check the documentation for any recent breaking changes.**
+**If something breaks, please check the documentation for any recent breaking changes or contact [api@nikel.ml](mailto:api@nikel.ml).**
 
 Although the API is free, there are very lenient rate limits posed to prevent API abuse.
 
-The current rate limit is **20 requests per second on uncached requests**.
+The current rate limit is **20 requests per second for uncached requests**. Cached requests are not subjected to ratelimits.
 
 :::

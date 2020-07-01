@@ -10,6 +10,12 @@ sidebar_label: welcome
 
 Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs on information about the University of Toronto.
 
+### API Wrappers
+
+##### Official
+
+* [nikel-ts (Node.js)](https://www.npmjs.com/package/nikel)
+
 :::note Important
 
 **This API is still currently in development. Some endpoints may change.**

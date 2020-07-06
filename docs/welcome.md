@@ -22,14 +22,16 @@ Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs for the Univers
 
 Please feel free to [add your own API wrapper](https://github.com/nikel-api/nikel-docs/edit/master/docs/welcome.md) to this list!
 
+### Rate Limits
+
+Although the API is free, there are very lenient rate limits posed to prevent API abuse.
+
+The current rate limit is **20 requests per second for uncached requests**. Cached requests are not subject to ratelimits.
+
 :::note Important
 
 **This API is still currently in development. Some endpoints may change.**
 
 **If something breaks, please check the documentation for any recent breaking changes or contact [api@nikel.ml](mailto:api@nikel.ml).**
-
-Although the API is free, there are very lenient rate limits posed to prevent API abuse.
-
-The current rate limit is **20 requests per second for uncached requests**. Cached requests are not subjected to ratelimits.
 
 :::

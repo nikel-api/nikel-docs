@@ -14,6 +14,29 @@ function Showcase() {
                 <div className="row showcase">
                     <div className="col col--4">
                         <div className="card">
+                            <div className="card__header">
+                                <img
+                                    src="https://i.imgur.com/H43KD6c.png"
+                                    alt="UofT Course Info Logo"
+                                    title="UofT Course Info Logo"
+                                />
+                            </div>
+                            <div className="card__body">
+                                <h2>UofT Course Info</h2>
+                                <small>
+                                    Adds informative tooltips to University of Toronto courses mentioned across the web.
+                                </small>
+                            </div>
+                            <div className="card__footer">
+                                <a className="button button--secondary button--block"
+                                   href="https://github.com/MuradAkh/UofTCourseInfo">
+                                    Chrome/Firefox Extension
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col col--4">
+                        <div className="card">
                             <div className="card__image">
                                 <img
                                     src="https://docs.nikel.ml/img/github.png"
@@ -22,7 +45,7 @@ function Showcase() {
                                 />
                             </div>
                             <div className="card__body">
-                                <h4>Add your project here!</h4>
+                                <h2>Add your project here!</h2>
                                 <small>
                                     Submit a pull request to get your project added to this page.
                                 </small>

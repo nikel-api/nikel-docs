@@ -11,10 +11,10 @@ sidebar_label: schema
 {
   "id": string,
   "name": string,
-  "description": string,
-  "tags": string,
+  "description": string?,
+  "tags": string?,
   "campus": string,
-  "address": string,
+  "address": string?,
   "coordinates": {
     "latitude": float,
     "longitude": float
@@ -22,44 +22,44 @@ sidebar_label: schema
   "hours": {
     "sunday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "monday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "tuesday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "wednesday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "thursday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "friday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     },
     "saturday": {
       "closed": boolean,
-      "open": integer,
-      "close": integer
+      "open": integer?,
+      "close": integer?
     }
-  },
-  "image": string,
-  "url": string,
-  "twitter": string,
-  "facebook": string,
+  }?,
+  "image": string?,
+  "url": string?,
+  "twitter": string?,
+  "facebook": string?,
   "attributes": []string,
   "last_updated": string
 }

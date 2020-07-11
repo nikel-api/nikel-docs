@@ -10,20 +10,20 @@ sidebar_label: schema
 ```json
 {
   "id": string,
-  "code": string,
-  "tags": string,
+  "code": string?,
+  "tags": string?,
   "name": string,
-  "short_name": string,
+  "short_name": string?,
   "address": {
-    "street": string,
-    "city": string,
-    "province": string,
-    "country": string,
-    "postal": string
+    "street": string?,
+    "city": string?,
+    "province": string?,
+    "country": string?,
+    "postal": string?
   },
   "coordinates": {
-    "latitude": float,
-    "longitude": float
+    "latitude": float?,
+    "longitude": float?
   },
   "last_updated": string
 }

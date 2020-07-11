@@ -20,7 +20,7 @@ sidebar_label: schema
   "sections": []{
       "lecture_code": string,
       "split": string,
-      "location": string
+      "location": string?
   },
   "last_updated": string
 }

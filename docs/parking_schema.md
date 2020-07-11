@@ -11,11 +11,11 @@ sidebar_label: schema
 {
   "id": string,
   "name": string,
-  "alias": string,
-  "building_id": string,
-  "description": string,
+  "alias": string?,
+  "building_id": string?,
+  "description": string?,
   "campus": string,
-  "address": string,
+  "address": string?,
   "coordinates": {
     "latitude": float,
     "longitude": float

@@ -10,23 +10,23 @@ sidebar_label: schema
 ```json
 {
   "id": string,
-  "code": string,
+  "code": string?,
   "name": string,
   "description": string,
   "division": string,
   "department": string,
-  "prerequisites": string,
-  "corequisites": string,
-  "exclusions": string,
-  "recommended_preparation": string,
+  "prerequisites": string?,
+  "corequisites": string?,
+  "exclusions": string?,
+  "recommended_preparation": string?,
   "level": string,
   "campus": string,
   "term": string,
-  "arts_and_science_breadth": string,
-  "arts_and_science_distribution": string,
-  "utm_distribution": string,
-  "utsc_breadth": string,
-  "apsc_electives": string,
+  "arts_and_science_breadth": string?,
+  "arts_and_science_distribution": string?,
+  "utm_distribution": string?,
+  "utsc_breadth": string?,
+  "apsc_electives": string?,
   "meeting_sections": [
     {
       "code": string,
@@ -36,10 +36,10 @@ sidebar_label: schema
         "start": integer,
         "end": integer,
         "duration": integer,
-        "location": string
+        "location": string?
       },
       "size": integer,
-      "enrollment": integer,
+      "enrollment": integer?,
       "waitlist_option": boolean,
       "delivery": string
     },

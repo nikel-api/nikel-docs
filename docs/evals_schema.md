@@ -29,13 +29,13 @@ Fields `s1` to `s6` correspond to scores of evaluation questions on a scale from
       "lecture_code": string,
       "firstname": string,
       "lastname": string,
-      "s1": float,
-      "s2": float,
-      "s3": float,
-      "s4": float,
-      "s5": float,
-      "s6": float,
-      "invited": integer,
+      "s1": float?,
+      "s2": float?,
+      "s3": float?,
+      "s4": float?,
+      "s5": float?,
+      "s6": float?,
+      "invited": integer?,
       "responses": integer
     }
   }

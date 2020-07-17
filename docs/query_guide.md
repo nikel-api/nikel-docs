@@ -74,5 +74,5 @@ Example: `https://nikel.ml/api/textbooks?courses=~mat135`
 **Warning**: it'll usually yield worse performance than the other operators.
 
 :::note
-Queries don't work in array types. You could try the `~`, but you may get items that you don't want.
+Queries don't work in array types. You could try the `~` operator, but you may get items you don't want.
 :::

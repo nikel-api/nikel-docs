@@ -37,6 +37,29 @@ function Showcase() {
                     </div>
                     <div className="col col--4">
                         <div className="card">
+                            <div className="card__header">
+                                <img
+                                    src="https://i.imgur.com/1Psw64k.png"
+                                    alt="UofT Help Bot Logo"
+                                    title="UofT Help Bot Logo"
+                                />
+                            </div>
+                            <div className="card__body">
+                                <h2>UofT Help Bot</h2>
+                                <small>
+                                    A Discord bot for information on UofT courses and more.
+                                </small>
+                            </div>
+                            <div className="card__footer">
+                                <a className="button button--secondary button--block"
+                                   href="https://discord.com/api/oauth2/authorize?client_id=734110992593715291&permissions=66583360&scope=bot">
+                                    Invite Link
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col col--4">
+                        <div className="card">
                             <div className="card__image">
                                 <img
                                     src="https://docs.nikel.ml/img/github.png"

@@ -2,7 +2,7 @@ module.exports = {
     someSidebar: {
         "Getting Started": ['welcome', 'query_guide'],
         Courses: ['courses_schema', 'courses'],
-        "Programs (NEW)": ['programs_schema', 'programs'],
+        Programs: ['programs_schema', 'programs'],
         Textbooks: ['textbooks_schema', 'textbooks'],
         Exams: ['exams_schema', 'exams'],
         Evals: ['evals_schema', 'evals'],

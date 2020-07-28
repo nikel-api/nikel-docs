@@ -5,6 +5,12 @@ hide_title: true
 sidebar_label: "GET programs"
 ---
 
+:::note Important
+
+**The programs endpoint is heavily unsanitized. You most likely need to do additional parsing to render the information useful.**
+
+:::
+
 ### Base URL
 
 ```

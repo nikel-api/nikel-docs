@@ -5,6 +5,12 @@ hide_title: true
 sidebar_label: "GET exams"
 ---
 
+:::note Important
+
+**The exams endpoint is very unstable during these uncertain times. Some information is most likely incorrect.**
+
+:::
+
 ### Base URL
 
 ```

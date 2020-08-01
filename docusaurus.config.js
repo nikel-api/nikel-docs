@@ -13,7 +13,7 @@ module.exports = {
                 alt: 'Nikel API Logo',
                 src: 'img/nikel-api-circle.ico',
             },
-            links: [
+            items: [
                 {
                     to: 'docs',
                     activeBasePath: 'docs',

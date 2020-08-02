@@ -24,8 +24,6 @@ Please feel free to [add your own API wrapper](https://github.com/nikel-api/nike
 
 :::note Important
 
-**This API is still currently in development. Some endpoints may change.**
-
 **If something breaks, please check the documentation for any recent breaking changes or contact [api@nikel.ml](mailto:api@nikel.ml).**
 
 :::

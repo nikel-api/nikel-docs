@@ -1,6 +1,6 @@
 module.exports = {
     someSidebar: {
-        "Getting Started": ['welcome', 'query_guide'],
+        "Getting Started": ['welcome', 'query_guide', 'ratelimits'],
         Courses: ['courses_schema', 'courses'],
         Programs: ['programs_schema', 'programs'],
         Textbooks: ['textbooks_schema', 'textbooks'],

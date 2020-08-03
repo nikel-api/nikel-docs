@@ -12,7 +12,9 @@ Although the API is free, there are very lenient rate limits posed to prevent AP
 
 The current rate limit is **20 requests per second for uncached requests**. Cached requests are not subject to rate limits.
 
-The cached status of requests are identified in the headers as "cf-cache-status".
+The cached status of requests are identified in the headers as `cf-cache-status`.
 
-* HIT: cache hit (no ratelimit)
+* HIT: cache hit (no rate limit)
 * MISS: cache miss
+
+Note that rate limit header values (`x-ratelimit-limit	20`, `x-ratelimit-remaining` and `x-ratelimit-reset`) are not valid on cached requests.

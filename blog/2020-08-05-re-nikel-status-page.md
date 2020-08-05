@@ -1,6 +1,6 @@
 ---
-id: nikel-status-page
-title: Re: Nikel Status Page
+id: re-nikel-status-page
+title: "Re: Nikel Status Page"
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->
 author_url: https://github.com/darenliang

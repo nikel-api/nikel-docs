@@ -22,6 +22,7 @@ module.exports = {
                 },
                 {to: 'blog', label: 'Blog', position: 'left'},
                 {to: 'showcase', label: 'Showcase', position: 'left'},
+                {to: 'contact', label: 'Contact', position: 'left'},
                 {
                     href: 'https://github.com/nikel-api',
                     className: 'header-github-link',
@@ -32,11 +33,6 @@ module.exports = {
                     href: 'https://status.nikel.ml',
                     className: 'header-status',
                     'aria-label': 'API Status',
-                    position: 'right',
-                },
-                {
-                    href: 'mailto:api@nikel.ml',
-                    label: 'Contact',
                     position: 'right',
                 },
             ],

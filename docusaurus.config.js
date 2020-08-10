@@ -68,7 +68,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} nikel-api.`,
+            copyright: `© ${new Date().getFullYear()} nikel-api`,
         },
     },
     presets: [

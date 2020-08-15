@@ -70,6 +70,9 @@ module.exports = {
             ],
             copyright: `© ${new Date().getFullYear()} nikel-api`,
         },
+        prism: {
+            additionalLanguages: ["ruby"]
+        }
     },
     presets: [
         [

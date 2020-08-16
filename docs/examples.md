@@ -44,3 +44,47 @@ require 'json'
 response = Net::HTTP.get(URI("https://nikel.ml/api/courses"))
 puts JSON.parse(response)["response"][0]["name"]
 ```
+
+### Go
+
+```go
+package main
+
+import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+)
+
+type Courses struct {
+	Response []struct {
+		Name string `json:"name"`
+	} `json:"response"`
+}
+
+func main() {
+	resp, err := http.Get("https://nikel.ml/api/courses")
+	if err != nil {
+		panic(err)
+	}
+
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		panic(err)
+	}
+
+	err = resp.Body.Close()
+	if err != nil {
+		panic(err)
+	}
+
+	var courses Courses
+	err = json.Unmarshal(data, &courses)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Printf(courses.Response[0].Name)
+}
+```

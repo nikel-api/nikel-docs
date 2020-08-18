@@ -12,7 +12,13 @@ Each of the following examples gets the first course name.
 
 If you got any examples for other programming languages, please feel free to add them [here](https://github.com/nikel-api/nikel-docs/edit/master/docs/examples.md)!
 
-### Python
+### Bash (with jq)
+
+```shell script
+curl https://nikel.ml/api/courses | jq ".response[0].name"
+```
+
+### Python (with requests)
 
 ```py
 import requests
@@ -22,7 +28,7 @@ if __name__ == "__main__":
     print(response["response"][0]["name"])
 ```
 
-### Javascript
+### Javascript (with fetch)
 
 ```js
 const fetch = require("node-fetch");

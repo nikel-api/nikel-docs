@@ -18,6 +18,12 @@ If you got any examples for other programming languages, please feel free to add
 curl https://nikel.ml/api/courses | jq ".response[0].name"
 ```
 
+### PowerShell
+
+```shell script
+(Invoke-RestMethod 'https://nikel.ml/api/courses').response[0].name
+```
+
 ### Python (with requests)
 
 ```py

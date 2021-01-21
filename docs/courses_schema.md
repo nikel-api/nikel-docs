@@ -12,7 +12,7 @@ sidebar_label: schema
   "id": string,
   "code": string?,
   "name": string,
-  "description": string,
+  "description": string?,
   "division": string,
   "department": string,
   "prerequisites": string?,

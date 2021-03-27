@@ -13,3 +13,9 @@ Users in Canada might have troubles accessing Nikel API. This is most likely due
 If you have any questions regarding this outage, please contact Nikel API at [api@nikel.ml](mailto:api@nikel.ml).
 
 Thank you.
+
+:::note Update
+
+Update: The issue seems to be fixed, but there is still no acknowledgement from Cloudflare that the issue occurred.
+
+:::

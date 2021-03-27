@@ -1,5 +1,5 @@
 ---
-id: looking-for-sponsors
+slug: looking-for-sponsors
 title: Looking for Sponsors
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

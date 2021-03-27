@@ -1,5 +1,5 @@
 ---
-id: looking-for-maintainers
+slug: looking-for-maintainers
 title: Looking for maintainers
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

@@ -1,5 +1,5 @@
 ---
-id: cloudflare-outage-canada
+slug: cloudflare-outage-canada
 title: Cloudflare Outage in Canada
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

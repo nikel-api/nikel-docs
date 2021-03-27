@@ -1,5 +1,5 @@
 ---
-id: incident-report-1
+slug: incident-report-1
 title: Incident Report
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

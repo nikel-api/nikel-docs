@@ -1,5 +1,5 @@
 ---
-id: next-steps
+slug: next-steps
 title: Next Steps
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

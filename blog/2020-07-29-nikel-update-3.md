@@ -1,5 +1,5 @@
 ---
-id: nikel-update-3
+slug: nikel-update-3
 title: Update 3
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

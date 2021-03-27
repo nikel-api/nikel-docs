@@ -1,4 +1,5 @@
 ---
+slug: /
 id: welcome
 title: Welcome
 hide_title: true

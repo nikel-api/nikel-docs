@@ -1,5 +1,5 @@
 ---
-id: nikel-status-page
+slug: nikel-status-page
 title: Nikel Status Page
 author: Daren Liang
 <!--- author_title: Daren Liang @ Nikel API --->

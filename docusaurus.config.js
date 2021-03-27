@@ -3,6 +3,8 @@ module.exports = {
     tagline: 'Free API for the University of Toronto',
     url: 'https://nikei-api.github.io',
     baseUrl: '/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
     favicon: 'img/nikel-api-circle.ico',
     organizationName: 'nikel-api', // Usually your GitHub org/user name.
     projectName: 'nikel', // Usually your repo name.
@@ -79,15 +81,13 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    // It is recommended to set document id as docs home page (`docs/` path).
-                    homePageId: 'welcome',
                     sidebarPath: require.resolve('./sidebars.js'),
                 },
                 blog: {
                     showReadingTime: true,
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: [require.resolve('./src/css/custom.css')],
                 },
             },
         ],

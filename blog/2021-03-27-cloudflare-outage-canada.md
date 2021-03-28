@@ -16,6 +16,6 @@ Thank you.
 
 :::note Update
 
-Update: The issue seems to be fixed, but there is still no acknowledgement from Cloudflare that the issue occurred.
+Update: The issue seems to be fixed, an incident is reported after the fact: https://www.cloudflarestatus.com/incidents/qjwxv73chh5b
 
 :::

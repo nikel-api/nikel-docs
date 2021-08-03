@@ -20,6 +20,7 @@ Nikel (pronunciation: `/'ni:kɛl/`) is a collection of data APIs for the Univers
 ##### Unofficial
 
 * [nikel-rs (Rust)](https://crates.io/crates/nikel-rs)
+* [nikel-py (Python)](https://pypi.org/project/nikel-py/)
 
 Please feel free to [add your own API wrapper](https://github.com/nikel-api/nikel-docs/edit/master/docs/welcome.md) to this list!
 

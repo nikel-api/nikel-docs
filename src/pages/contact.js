@@ -11,7 +11,7 @@ function Contact() {
                         <a style={{color: "white"}} href="mailto:api@nikel.ml">api@nikel.ml</a>
                     </p>
                     <div>
-                        <a className="button button--secondary button--outline button--lg"
+                        <a className="button button--secondary button--lg"
                            href="https://forms.gle/r1d5GaBw3Sc2sYnb7">
                             Contact Form
                         </a>
